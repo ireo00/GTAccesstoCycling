@@ -7,7 +7,7 @@ GTAccess to Cycling hopes to inspire more people to start cycling in the GTA by 
 The webpage: https://ireo00.github.io/GTAccesstoCycling/
 
 Data Sources:
-<Static>
+[Static data]
 - Toronto Cycling Network: https://open.toronto.ca/dataset/cycling-network/
 - Toronto bicycle shops: https://open.toronto.ca/dataset/bicycle-shops/
 - Toronto bicycle parkings: https://open.toronto.ca/dataset/street-furniture-bicycle-parking/
@@ -28,7 +28,7 @@ Data Sources:
 - Burlington Municipality Boundaries: https://navburl-burlington.opendata.arcgis.com/datasets/Burlington::city-outline
 - Oakville Municipality Boundaries: https://portal-exploreoakville.opendata.arcgis.com/datasets/ExploreOakville::town-boundary
 
-<API (real-time)>
+[API (real-time)]
 - Open Meteo Weather Forecast API (hourly update): https://open-meteo.com/
 - BikeShare Toronto API (real-time update): https://ckan0.cf.opendata.inter.prod-toronto.ca/en/dataset/bike-share-toronto
 
