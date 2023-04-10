@@ -12,25 +12,27 @@ Data Sources:
 
 [Static data]
 - Toronto Cycling Network: https://open.toronto.ca/dataset/cycling-network/
-- Toronto bicycle shops: https://open.toronto.ca/dataset/bicycle-shops/
-- Toronto bicycle parkings: https://open.toronto.ca/dataset/street-furniture-bicycle-parking/
+- Toronto Bike Shops: https://open.toronto.ca/dataset/bicycle-shops/
+- Toronto Bike Parkings: https://open.toronto.ca/dataset/street-furniture-bicycle-parking/
+Rest of GTA Bike Shops & Parkings: https://www.openstreetmap.org/
 - York Region Bike Routes Data: https://insights-york.opendata.arcgis.com/datasets/york::bike-path
 - Peel Region Trail Network: https://data.peelregion.ca/datasets/RegionofPeel::trails
 - Durham Cycling Network: https://opendata.durham.ca/maps/DurhamRegion::cycle-tour-routes
-- Oakville Cycling Network: https://portal-exploreoakville.opendata.arcgis.com/datasets/ExploreOakville::cycling-routes
 - Milton Cycling Network: https://discover-milton.hub.arcgis.com/datasets/Milton::cycle-routes
 - Burlington Cycling Network: https://navburl-burlington.opendata.arcgis.com/datasets/Burlington::cycling-network
+- Oakville Cycling Network: https://portal-exploreoakville.opendata.arcgis.com/datasets/ExploreOakville::cycling-routes
 - Ajax Cycling Network: https://opendata.ajax.ca/datasets/TownofAjax::active-transportation
 - Whitby Cycling Network: https://geohub-whitby.hub.arcgis.com/datasets/Whitby::cycling-routes
 
 - Toronto Municipality Boundaries: https://open.toronto.ca/dataset/former-municipality-boundaries/
 - York Municipality Boundaries: https://insights-york.opendata.arcgis.com/datasets/york::municipal-boundary
-- Durham Municipality Boundaries: https://opendata.durham.ca/datasets/DurhamRegion::municipal-boundaries
 - Peel Municipality Boundaries: https://data.peelregion.ca/datasets/RegionofPeel::municipal-boundary
+- Durham Municipality Boundaries: https://opendata.durham.ca/datasets/DurhamRegion::municipal-boundaries
 - Milton Municipality Boundaries: https://discover-milton.hub.arcgis.com/datasets/Milton::milton-boundary-5
 - Burlington Municipality Boundaries: https://navburl-burlington.opendata.arcgis.com/datasets/Burlington::city-outline
 - Oakville Municipality Boundaries: https://portal-exploreoakville.opendata.arcgis.com/datasets/ExploreOakville::town-boundary
 
 [API (real-time)]
+- Bike Share Toronto API (real-time update): https://ckan0.cf.opendata.inter.prod-toronto.ca/en/dataset/bike-share-toronto
 - Open Meteo Weather Forecast API (hourly update): https://open-meteo.com/
-- BikeShare Toronto API (real-time update): https://ckan0.cf.opendata.inter.prod-toronto.ca/en/dataset/bike-share-toronto
+- Mapbox Traffic (real-time update): https://docs.mapbox.com/data/tilesets/reference/mapbox-traffic-v1/
