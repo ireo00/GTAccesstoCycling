@@ -7,6 +7,7 @@ GTAccess to Cycling hopes to inspire more people to start cycling in the GTA by 
 The webpage: https://ireo00.github.io/GTAccesstoCycling/
 
 Data Sources:
+
 [Static data]
 - Toronto Cycling Network: https://open.toronto.ca/dataset/cycling-network/
 - Toronto bicycle shops: https://open.toronto.ca/dataset/bicycle-shops/
