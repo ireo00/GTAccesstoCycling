@@ -1,0 +1,156 @@
+.map {
+    position: absolute;
+    top: 50px; /* place maps below the text and images on the page */
+    bottom: 0;
+    width: 100%; /* ensure each of the 3 maps takes up 30% width */   
+}
+
+/* specify formatting 'map-overlay-search' that included the geocoder and return button */
+.map-overlay-data {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    top: 0px;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+/* specify formatting 'map-overlay-search' that included the geocoder and return button */
+.map-overlay-legend {
+    position: absolute;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    bottom: 20px;
+    right: 0px;
+    width: 230px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+/* specify formatting 'map-overlay-search' that included the geocoder and return button */
+.map-overlay-search {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    top: 0px;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+/* specify formatting 'map-overlay-dropdown' */
+.map-overlay-dropdown {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    top: 0px;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+/* specify formatting 'geocoder'*/
+.geocoder {
+    position: relative;
+    margin: 10px 0 10px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    background-color: #f1f1f1;
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.legend_content {
+    padding: 0 18px;
+    background-color: #f1f1f1;
+}
+
+.map-overlay-planner {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    top: 0px;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+.divs:hover{
+    background-color:#FF0000;
+ }
+
+/* specify formatting of the legend's key (i.e. line)*/
+.legend-key {
+    display: inline-block;
+    border-radius: 0%; 
+    height: 5px; /*height of the line*/
+    width: 35px; /*width of the line*/
+    margin-right: 5px; /*position of line*/
+}
+
+/* specify formatting of the 'key' associated with the toggle menu's Toronto bicycle shops "label-key-shops" */
+.label-key-shops {
+    display: inline-block;
+    border-radius: 0%; /* curve border to make circles */
+    height: 12px; /* specify height of circles */
+    width: 12px; /* specify width of circles */
+    margin-right: 5px; /* specify position of circles */
+}
+
+/* specify formatting of the 'key' associated with the toggle menu's Toronto bikeshare "label-key-bikeshare" */
+.label-key-bikeshare {
+    display: inline-block;
+    border-radius: 0%;
+    height: 12px;  /* adjust height to make small horizontal lines */
+    width: 12px; /* adjust height to make small horizontal lines */
+    margin-right: 5px; /* specify position of lines */
+}
+
+/* specify formatting of the 'key' associated with the toggle menu's Toronto bicycle parking "label-key-parking" */
+.label-key-parking {
+    display: inline-block;
+    border-radius: 0%; 
+    height: 12px; /* adjust height to make small horizontal lines */
+    width: 12px; /* adjust height to make small horizontal lines */
+    margin-right: 5px; /* specify position of lines */
+}
+ /* .nearby{
+    height: 100px;
+    overflow-y: scroll;
+ } */

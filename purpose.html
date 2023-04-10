@@ -1,0 +1,116 @@
+<!-- specify the doctype as html such that this file is interpretable -->
+<!DOCTYPE html>
+
+<!-- set the "lang" attribute to English to specify the language of this file's text content -->
+<html lang="en">
+
+<head>
+  <!-- provide the metadata for the web page corresponding to this file (set the character encoding, specify the view of the page on devices of different sizes) -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- define a title for the web page (that will appear in the browser) -->
+  <title>GTAccess to Cycling</title>
+  <!-- provide scripts & links to the Mapbox API, and links to the local style.css file and external Bootstrap CSS library (which specify the style of the page) -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- define the navbar using https://getbootstrap.com/docs/5.3/components/navbar/  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <!-- define the title for the navbar as "Navigate" and specify that the web page should not redirect when this title is clicked -->
+      <a class="navbar-brand" href="#">GTAccess to Cycling</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!-- specify that the web page should redirect to the local index.html file when "Home" is clicked in the navbar while on the "More Info" page -->
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- specify that the web page should not redirect when "More Info" is clicked in the navbar while on the "More Info" page -->
+            <!-- specify that the "More Info" button of the navbar should be highlighted while on the "More Info" page  -->
+            <a class="nav-link active" href="#">Purpose</a>
+          </li>
+          <li class="nav-item">
+            <!-- specify that the web page should redirect to the local index.html file when "Home" is clicked in the navbar while on the "More Info" page -->
+            <a class="nav-link" aria-current="page" href="instructions.html">Instructions</a>
+          </li>
+          <li class="nav-item">
+            <!-- specify that the web page should redirect to the local index.html file when "Home" is clicked in the navbar while on the "More Info" page -->
+            <a class="nav-link" aria-current="page" href="definitions.html">Definitions</a>
+          </li>
+          <li class="nav-item">
+            <!-- specify that the web page should redirect to the local more_info.html file when "More Info" is clicked in the navbar while on the "Home" page -->
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- define a new section with a "container" class that allows the use of the Bootstrap grid system -->
+  <div class="container">
+
+    <!-- define a new row and centre all content of the row -->
+    <div class="row justify-content-center">
+      <!-- define a new column which takes up 8 Bootstrap column units -->
+      <div class="col-8">
+        <!-- define a new section within the column which has centered text within it -->
+        <div class="text-center">
+          <!-- specify text to be displayed at a heading 1 level -->
+          <h1>Purpose</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- define a new row and centre all content of the row -->
+    <div class="row justify-content-center">
+      <!-- define a new column which takes up 8 Bootstrap column units -->
+      <div class="col-8">
+        <!-- define a new section within the column which has centered text within it -->
+        <div class="text-left">
+          <!-- specify text to be displayed at a paragraph level with a link that opens a page about Toronto bikeway types in a new window-->
+          <p>
+          <h4><b>Objectives</b></h4>
+          <p>
+            As cities continue to grow and the number of cars on the roads increases, urban mobility becomes an
+            increasingly important issue. Traffic congestion, air pollution, and increased greenhouse gas emissions are
+            some challenges posed by this growth in traffic. Active transportation, such as cycling, can be an effective
+            solution to these challenges while also promoting physical activity and healthy living. Moreover, the
+            COVID-19 pandemic has made cycling more popular, as many people see it as a safer and more socially
+            distanced mode of transportation.
+          </p>
+          <p>
+            Our project aims to inspire more people to start cycling in the city by developing a web application that
+            caters to a diverse audience. We hope to provide a wide range of cycling-related information and resources
+            in one location, from introductory safety information to advanced planning tools for current and potential
+            cyclists. The focus of our app is the Great Toronto Area (GTA), which is divided into five regions: Toronto,
+            Durham, Halton, Peel, and York regions.
+          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- provide links to the local script.js file and the external Bootstrap Javascript bundle (which allow the functionality of the page) -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
