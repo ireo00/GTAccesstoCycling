@@ -14,7 +14,7 @@ Data Sources:
 - Toronto Cycling Network: https://open.toronto.ca/dataset/cycling-network/
 - Toronto Bike Shops: https://open.toronto.ca/dataset/bicycle-shops/
 - Toronto Bike Parkings: https://open.toronto.ca/dataset/street-furniture-bicycle-parking/
-Rest of GTA Bike Shops & Parkings: https://www.openstreetmap.org/
+- Rest of GTA Bike Shops & Parkings: https://www.openstreetmap.org/
 - York Region Bike Routes Data: https://insights-york.opendata.arcgis.com/datasets/york::bike-path
 - Peel Region Trail Network: https://data.peelregion.ca/datasets/RegionofPeel::trails
 - Durham Cycling Network: https://opendata.durham.ca/maps/DurhamRegion::cycle-tour-routes
