@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-03-26T02:53:35Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3632277711",
+        "amenity": "bicycle_rental",
+        "capacity": "26",
+        "fixme": "add operator/brand",
+        "name": "UTM BikeShare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6638747,
+          43.5490853
+        ]
+      },
+      "id": "node/3632277711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4937556939",
+        "amenity": "bicycle_rental",
+        "fixme": "add operator/brand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9363123,
+          43.8568341
+        ]
+      },
+      "id": "node/4937556939"
+    }
+  ]
+}
