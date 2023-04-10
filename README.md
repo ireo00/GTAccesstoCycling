@@ -1,10 +1,12 @@
 # GTAccesstoCycling
 
-This repository contains code for the collaborative project on cycling networks in the Greater Toronto Area, which includes City of Toronto and the regional municipalities of Durham, Halton, Peel, and York.
+This repository contains the code and data for this collaborative project on cycling networks in the Greater Toronto Area, which includes City of Toronto and the regional municipalities of Durham, Halton, Peel, and York.
 
 GTAccess to Cycling hopes to inspire more people to start cycling in the GTA by providing a wide range of GTA cycling-related information and resources in one application, from introductory cycling terms to advanced planning tools for current and potential cyclists.
 
 The webpage: https://ireo00.github.io/GTAccesstoCycling/
+
+*This web map is missing Halton Region because can't find relevant data on the internet.
 
 Data Sources:
 
@@ -32,5 +34,3 @@ Data Sources:
 [API (real-time)]
 - Open Meteo Weather Forecast API (hourly update): https://open-meteo.com/
 - BikeShare Toronto API (real-time update): https://ckan0.cf.opendata.inter.prod-toronto.ca/en/dataset/bike-share-toronto
-
-*This web map is missing Halton Region because can't find relevant data on the internet.
