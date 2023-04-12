@@ -3,8 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaXJlbyIsImEiOiJjbGRtMTVrbGkwNHh5M3B0Yjd5YnF3c
 
 //define maximum and minimum scroll bounds for the maps
 const maxBounds = [
-  [-90.8, 43.4], //SW coords
-  [-100, 45] //NE coords
+  [-82, 42.94], //SW coords
+  [-77, 44.87] //NE coords
 ];
 
 //define a constant variable "map" and assign it to a map created with the Mapbox API 
